@@ -8,6 +8,7 @@ export default {
   purple: '#bf94ff',
 };
 
+
 /**
  * Auto Theme Challenge:
  *

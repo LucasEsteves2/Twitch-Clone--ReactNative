@@ -1,8 +1,8 @@
 import styled from 'styled-components/native';
 import Constants from 'expo-constants';
 import { Platform } from 'react-native';
-
 import colors from '../../styles/colors';
+
 
 const statusBarHeight =
   Platform.OS === 'android' ? Constants.statusBarHeight : 0;
