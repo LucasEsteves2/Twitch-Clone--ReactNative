@@ -3,6 +3,7 @@ import { FlatList,View } from 'react-native';
 import CategoryList from '../../components/CategoryList';
 import Header from '../../components/Header';
 import Heading from '../../components/Heading';
+import StreamList from '../../components/StreamList';
 import Title from '../../components/Title';
 
 import { Wrapper, Container, Main } from './styles';
@@ -32,7 +33,7 @@ function Following() {
         render: () => <Title>Live Channels</Title>,
         isTitle: true,
       },
-      // { key: 'C2', render: () => <StreamList /> },
+      { key: 'C2', render: () => <StreamList /> },
 
       {
         key: 'CONTINUE_WATCHING',
