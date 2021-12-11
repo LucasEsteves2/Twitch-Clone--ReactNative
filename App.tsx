@@ -7,7 +7,9 @@ import {
   useFonts,
 } from '@expo-google-fonts/roboto';
 
+
 import Routes from './src/routes';
+import AppLoading from 'expo-app-loading';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -15,6 +17,12 @@ export default function App() {
     roboto_500: Roboto_500Medium,
     roboto_700: Roboto_700Bold,
   });
+
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  }
+
 
   return (
     <>

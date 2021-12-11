@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "my-new-project",
-    "slug": "my-new-project",
+    "name": "Twitch Serratec",
+    "slug": "twitch",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashh.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#9147FF"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

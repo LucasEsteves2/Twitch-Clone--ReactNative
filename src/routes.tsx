@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 
@@ -7,10 +6,17 @@ import colors from './styles/colors';
 
 import Following from './pages/Following';
 import ComingSoon from './pages/ComingSoon';
+import { Login } from './pages/Login';
 const { Navigator, Screen } = createBottomTabNavigator();
+
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
+const Stack = createStackNavigator()
 
 const Routes: React.FC = () => (
   <NavigationContainer>
+
   <Navigator
     tabBarOptions={{
       style: {
