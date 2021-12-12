@@ -19,7 +19,6 @@ const ChannelList: React.FC = () => {
         <Avatar />
         <Column>
 
-
         <Username>rocketseat_oficial</Username>
           <Info>36 new videos</Info>
         </Column>
