@@ -31,8 +31,8 @@ const StreamList: React.FC = () => {
       <StreamRow>
         <StreamColumn>
           <StreamHeader>
-            <StreamAvatar source={item.img} />
-            <StreamUsername numberOfLines={1}> {item.avatar}</StreamUsername>
+            <StreamAvatar  source={item.avatar}  />
+            <StreamUsername numberOfLines={1}> {item.nome}</StreamUsername>
           </StreamHeader>
 
           <StreamDescription numberOfLines={1}>

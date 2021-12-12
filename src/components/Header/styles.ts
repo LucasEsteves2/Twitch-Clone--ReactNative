@@ -20,7 +20,7 @@ export const OnlineStatus = styled.View`
   bottom: 0;
 `;
 
-export const Avatar = styled.TouchableOpacity`
+export const Avatar = styled.Image`
   background: ${colors.tag};
   width: 32px;
   height: 32px;
