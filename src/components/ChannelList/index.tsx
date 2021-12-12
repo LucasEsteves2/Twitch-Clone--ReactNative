@@ -12,17 +12,22 @@ import {
   WhiteCircle,
 } from './styles';
 
+import data from './data';
+
+interface ItemProps {
+  item: typeof data[0];
+}
+
 const ChannelList: React.FC = () => {
-  const ChannelItem = () => (
+  const ChannelItem: React.FC<ItemProps> = ({ item }) => (
     <ChannelContainer>
       <LeftSide>
-        <Avatar />
+        <Avatar  source={item.img} />
         <Column>
-        <Username>rocketseat_oficial</Username>
-          <Info>36 new videos</Info>
+          <Username>{item.nome}</Username>
+          <Info> {item.videos}</Info>
         </Column>
       </LeftSide>
-
       <RightSide>
         <WhiteCircle />
       </RightSide>
@@ -31,12 +36,9 @@ const ChannelList: React.FC = () => {
 
   return (
     <List>
-      <ChannelItem />
-      <ChannelItem />
-      <ChannelItem />
-      <ChannelItem />
-      <ChannelItem />
-      <ChannelItem />
+      {data.map((item) => (
+        <ChannelItem key={item.nome} item={item} />
+      ))}
     </List>
   );
 };

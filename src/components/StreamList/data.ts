@@ -10,6 +10,7 @@ import alan_perfil from '../../images/avatar/alan_perfil.jpg';
 import gratis_perfil from '../../images/avatar/gratis_perfil.jpg';
 import jukes_perfil from '../../images/avatar/jukes_perfil.jpg';
 import rakin_perfil from '../../images/avatar/rakin_perfil.jpg';
+import th_perfil from '../../images/canal/th.jpg';
 
 
 
@@ -20,7 +21,7 @@ const data = [
   { nome: 'YoDa', img: yodao, desc: '#YodaMeDáUmPC', conteudo: ' New World ', lingua: 'Português', tipo: 'MMO', avatar: yoda_perfil },
   { nome: 'gratis150ml', img: gratis, desc: 'TFT rumo ao mestre', conteudo: ' Teamfight Tactics ', lingua: 'Português', tipo: 'Estratégia', avatar: gratis_perfil },
   { nome: 'jukes', img: jukes, desc: 'BOA NOITE DAMAS E CAVALHEIROS ', conteudo: ' League of Legends ', lingua: 'Português', tipo: 'Moba', avatar: jukes_perfil },
-  { nome: 'Rakin', img: rakin, desc: 'SAGA RUMO AO RADIANTE', conteudo: 'VALORANT', lingua: 'Português', tipo: 'FPS', avatar: rakin_perfil }
-];
-
+  { nome: 'Rakin', img: rakin, desc: 'SAGA RUMO AO RADIANTE', conteudo: 'VALORANT', lingua: 'Português', tipo: 'FPS', avatar: rakin_perfil },
+  { nome: 'HolyfieldZ7', img: jukes, desc: 'APLICANDO O POWER-FARM', conteudo: 'League of Legends', lingua: 'Português', tipo: 'Moba', avatar: th_perfil}
+ ];
 export default data 
