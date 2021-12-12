@@ -17,33 +17,38 @@ import {
   TagView,
   TagText,
 } from './styles';
+import data from './data';
+
+interface ItemProps {
+  item: typeof data[0];
+}
+
 
 const StreamList: React.FC = () => {
-  const StreamItem = () => (
+  const StreamItem: React.FC<ItemProps> = ({ item }) => (
     <StreamContainer>
-      <StreamThumbnail source={streamThumbnail} />
+      <StreamThumbnail source={item.img} />
       <StreamRow>
         <StreamColumn>
           <StreamHeader>
-            <StreamAvatar />
-            <StreamUsername numberOfLines={1}>Esteves</StreamUsername>
+            <StreamAvatar source={item.img} />
+            <StreamUsername numberOfLines={1}> {item.avatar}</StreamUsername>
           </StreamHeader>
 
           <StreamDescription numberOfLines={1}>
-            Front-end com Next.js, Chakra UI e GraphQL
+           {item.desc}
           </StreamDescription>
-
           <StreamCategory numberOfLines={1}>
-            Science & Technology
+          {item.conteudo}
           </StreamCategory>
         </StreamColumn> 
 
         <TagRow>
           <TagView>
-            <TagText>Portuguese</TagText>
+            <TagText>{item.lingua}</TagText>
           </TagView>
           <TagView>
-            <TagText>Web Development</TagText>
+            <TagText>{item.tipo}</TagText>
           </TagView>
         </TagRow>
       </StreamRow>
@@ -52,10 +57,9 @@ const StreamList: React.FC = () => {
 
   return (
     <List>
-      <StreamItem />
-      <StreamItem />
-      <StreamItem />
-      <StreamItem />
+      {data.map((item) => (
+        <StreamItem key={item.nome} item={item} />
+      ))}
     </List>
   );
 };

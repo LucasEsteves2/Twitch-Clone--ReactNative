@@ -18,7 +18,6 @@ const ChannelList: React.FC = () => {
       <LeftSide>
         <Avatar />
         <Column>
-
         <Username>rocketseat_oficial</Username>
           <Info>36 new videos</Info>
         </Column>
@@ -32,10 +31,6 @@ const ChannelList: React.FC = () => {
 
   return (
     <List>
-      <ChannelItem />
-      <ChannelItem />
-      <ChannelItem />
-      <ChannelItem />
       <ChannelItem />
       <ChannelItem />
       <ChannelItem />

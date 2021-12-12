@@ -33,7 +33,7 @@ export const StreamHeader = styled.View`
   align-items: center;
 `;
 
-export const StreamAvatar = styled.View`
+export const StreamAvatar = styled.Image`
   background: ${colors.tag};
   width: 20px;
   height: 20px;
