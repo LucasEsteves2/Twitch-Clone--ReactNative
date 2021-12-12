@@ -22,7 +22,6 @@ const StreamList: React.FC = () => {
   const StreamItem = () => (
     <StreamContainer>
       <StreamThumbnail source={streamThumbnail} />
-
       <StreamRow>
         <StreamColumn>
           <StreamHeader>
