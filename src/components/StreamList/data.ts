@@ -3,6 +3,7 @@ import alan from '../../images/tumb/alan.jpg';
 import jukes from '../../images/tumb/jukes.jpg';
 import gratis from '../../images/tumb/gratis.jpg';
 import rakin from '../../images/tumb/rakin.jpg';
+import th from '../../images/tumb/power.jpg';
 
 // perfil
 import yoda_perfil from '../../images/avatar/yoda_perfil.jpg';
@@ -22,6 +23,6 @@ const data = [
   { nome: 'gratis150ml', img: gratis, desc: 'TFT rumo ao mestre', conteudo: ' Teamfight Tactics ', lingua: 'Português', tipo: 'Estratégia', avatar: gratis_perfil },
   { nome: 'jukes', img: jukes, desc: 'BOA NOITE DAMAS E CAVALHEIROS ', conteudo: ' League of Legends ', lingua: 'Português', tipo: 'Moba', avatar: jukes_perfil },
   { nome: 'Rakin', img: rakin, desc: 'SAGA RUMO AO RADIANTE', conteudo: 'VALORANT', lingua: 'Português', tipo: 'FPS', avatar: rakin_perfil },
-  { nome: 'HolyfieldZ7', img: jukes, desc: 'APLICANDO O POWER-FARM', conteudo: 'League of Legends', lingua: 'Português', tipo: 'Moba', avatar: th_perfil}
+  { nome: 'HolyfieldZ7', img: th, desc: 'APLICANDO O POWER-FARM', conteudo: 'League of Legends', lingua: 'Português', tipo: 'Moba', avatar: th_perfil}
  ];
 export default data 

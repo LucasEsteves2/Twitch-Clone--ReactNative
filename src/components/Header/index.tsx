@@ -4,8 +4,7 @@ import {
   MaterialCommunityIcons,
   Feather,
 } from '@expo/vector-icons';
-
-import foto_perfil from '../../images/stream_thumbnail.jpg';
+import streamThumbnail from '../../images/user.jpg';
 
 import colors from '../../styles/colors';
 
@@ -14,7 +13,9 @@ import { Container, Avatar, OnlineStatus, RightSide, Button } from './styles';
 const Header: React.FC = () => {
   return (
     <Container>
-      <Avatar source={foto_perfil} >
+      <Avatar source={streamThumbnail} >
+        {/* <OnlineStatus /> */}
+
       </Avatar>
 
       <RightSide>

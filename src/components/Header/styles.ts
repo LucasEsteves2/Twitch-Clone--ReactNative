@@ -21,7 +21,7 @@ export const OnlineStatus = styled.View`
 `;
 
 export const Avatar = styled.Image`
-  background: ${colors.tag};
+  background: #9646FF;
   width: 32px;
   height: 32px;
   border-radius: 16px;
