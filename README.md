@@ -36,6 +36,15 @@
       1:  Splash Screen<br>
       2:  Tela home Twitch <br>
       3:  Tela Login Twitch <br>
+      4: Autenticação via Api<br>
+  </details>
+  
+  <details>
+  <summary>🔑 Autenticação (API-LOGIN):</summary>
+      <p align="justify">
+      <a href="https://apiserratec.herokuapp.com/swagger-ui.html#/">Documentação [SWAGGER]  </a> <br>
+       login: admin@gmaill.com <br>
+       senha: 123 <br>
 
   </details>
   
@@ -55,6 +64,8 @@
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [StyledComponents](https://styled-components.com/)
+- [Api Pessoal](https://apiserratec.herokuapp.com/swagger-ui.html#/)
+
 
 <br>
 
