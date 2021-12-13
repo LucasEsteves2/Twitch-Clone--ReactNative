@@ -20,11 +20,32 @@
   Clone do app Twitch-Tv 
 
 </p>
-<h1 align="center" id="design">
+<p align="center" id="design">
   <img width="300" src="https://github.com/LucasEsteves2/Twitch-Clone--ReactNative/blob/main/src/github/clone.gif" />
-</h1>
+</p>
+  <br>
 
 
+
+  
+## 💬Twich clone SERRATEC 
+
+<details>
+  <summary>✔️ Funcionalidades:</summary>
+      <p align="justify">
+      1:  Splash Screen<br>
+      2:  Tela home Twitch <br>
+      3:  Tela Login Twitch <br>
+
+  </details>
+  
+  <details>
+  <summary>📷 Telas:</summary>
+     <img align="center" src="assets/Class Diagrama.jpg">
+
+  </details>
+ 
+<BR>
 
 ## <img  height="45px" align="center" src="https://github.com/luqui2/Sistema-para-Viagens-/blob/main/src/imagens/foguete.gif"> Tecnologia Utilizada
 
