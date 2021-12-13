@@ -41,7 +41,7 @@
   
   <details>
   <summary>📷 Telas:</summary>
-     <img align="center" src="assets/Class Diagrama.jpg">
+     <img align="center" src="https://github.com/LucasEsteves2/Twitch-Clone--ReactNative/blob/main/src/github/telas.jpg">
 
   </details>
  
