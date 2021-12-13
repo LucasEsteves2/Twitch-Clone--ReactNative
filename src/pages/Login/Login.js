@@ -10,6 +10,7 @@ import { useNavigation } from "@react-navigation/native";
 import { api } from "../../service/api";
 import React, { useState } from "react";
 import logozita from "../../images/logotwt.png";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export function Login() {
   const [login, setLogin] = useState();
@@ -20,15 +21,23 @@ export function Login() {
   //verificando se usuario existe na api
   async function entrar() {
     try {
-      var { data } = await api.post("/login", {
+      var { headers } = await api.post("/login", {
         email: login,
         senha: senha,
       });
-      alert("Bem vindo "+ data.email);
+      alert("Bem vindo " + login);
+
+      const storeData = async (value) => {
+        try {
+          await AsyncStorage.setItem("@login", login);
+        } catch (e) {
+          alert("erro ao salvar no storage");
+        }
+      };
 
       navigation.navigate("Following");
     } catch {
-      alert("Usuario Invalido!!");
+      alert("USUARIO INVALIDO(NAO FOI ENCONTRADO NA API)!!");
     }
   }
 
