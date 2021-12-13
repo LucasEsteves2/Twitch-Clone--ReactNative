@@ -8,6 +8,7 @@ import gta from '../../images/gta.jpg';
 import rocket from '../../images/rocket.jpg';
 import just  from '../../images/wow.jpg';
 import tft  from '../../images/tft.jpg';
+import warzone  from '../../images/warzone.jpg';
 
 //fazer uma consulta na api e trazer os dados ali 
 
@@ -18,6 +19,7 @@ export default [
   { name: 'Apex Legends', source: apex,view: '50.9K '},
   { name: 'Counter-Strike: Global Offensive', source: csgo,view: '47.9K ' },
   { name: 'Fortnite', source: fortnite, view: '45.2K '},
+  { name: 'Call of Duty: Warzone', source: warzone, view: '44.8K ' },
   { name: 'Fall Guys', source: fallguys, view: '40.7K ' },
   { name: 'Grand Theft Auto V', source: gta, view: '40.6K ' },
   { name: 'Rocket League', source: rocket, view: '40.5K ' },

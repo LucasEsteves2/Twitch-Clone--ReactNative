@@ -39,6 +39,7 @@ export function Login() {
                 <TextInput
                     style={styles.input}
                     placeholder="Senha"
+                    secureTextEntry={true}
                     placeholderTextColor="#C3C3C3"
                 />
             </View>

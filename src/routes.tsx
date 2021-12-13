@@ -18,6 +18,7 @@ const Routes: React.FC = () => (
   <NavigationContainer>
 
   <Navigator
+        initialRouteName="Login"
     tabBarOptions={{
       style: {
         height: 60,
@@ -79,7 +80,7 @@ const Routes: React.FC = () => (
         tabBarIcon: ({ size, focused }) => {
           return (
             <Ionicons
-              name="md-browsers"
+              name="person-circle-outline"
               size={size}
               color={focused ? colors.purple : colors.black}
             />
@@ -88,6 +89,7 @@ const Routes: React.FC = () => (
       }}
     />
     <Screen
+    
       name="Esports"
       component={ComingSoon}
       options={{

@@ -10,12 +10,6 @@ const ComingSoon: React.FC = () => {
   return (
     <Wrapper>
       <Heading>Em Breve...</Heading>
-
-      <TouchableOpacity onPress={()=> navigation.navigate("Following")}>
-      <Heading>Em Breve...</Heading>
-      </TouchableOpacity>
-
-      
     </Wrapper>
   );
 };
