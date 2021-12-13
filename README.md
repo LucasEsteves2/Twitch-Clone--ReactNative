@@ -41,7 +41,7 @@
   
   <details>
   <summary>📷 Telas:</summary>
-     <img align="center" src="assets/Class Diagrama.jpg">
+     <img align="center" src="https://github.com/LucasEsteves2/Twitch-Clone--ReactNative/blob/main/src/github/telas.jpg">
 
   </details>
  
@@ -63,6 +63,6 @@
   <table>
   <tr>
     <td align="center"><a href="https://github.com/LucasEsteves2"><img src="https://avatars.githubusercontent.com/u/83038670?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Esteves</b></sub></a><br /><a href="" title="Code">💻</a></td>
-    <td align="center"><a href=https://github.com/menta2010"><img src="https://avatars.githubusercontent.com/u/86114585?v=4" width="100px;" alt=""/><br /><sub><b>Natalino Esteves</b></sub></a><br /><a href="" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/menta2010"><img src="https://avatars.githubusercontent.com/u/86114585?v=4" width="100px;" alt=""/><br /><sub><b>Natalino Esteves</b></sub></a><br /><a href="" title="Code">💻</a></td>
   </tr>
 </table>
