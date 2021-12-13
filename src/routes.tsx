@@ -20,6 +20,9 @@ const Routes: React.FC = () => (
   <Navigator
         initialRouteName="Login"
     tabBarOptions={{
+      // evitando que o tab bar fique em cima do input
+      keyboardHidesTabBar: true,
+
       style: {
         height: 60,
         backgroundColor: colors.primary,
