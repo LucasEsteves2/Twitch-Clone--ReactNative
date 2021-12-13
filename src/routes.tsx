@@ -6,7 +6,7 @@ import colors from './styles/colors';
 
 import Following from './pages/Following';
 import ComingSoon from './pages/ComingSoon';
-import  Login  from './pages/Login';
+import  {Login}  from './pages/Login/Login';
 const { Navigator, Screen } = createBottomTabNavigator();
 
 import { NavigationContainer } from '@react-navigation/native';
@@ -73,8 +73,8 @@ const Routes: React.FC = () => (
       }}
     />
     <Screen
-      name="Browse"
-      component={ComingSoon}
+      name="Login"
+      component={Login}
       options={{
         tabBarIcon: ({ size, focused }) => {
           return (
@@ -102,6 +102,7 @@ const Routes: React.FC = () => (
         },
       }}
     />
+ 
   </Navigator>
 </NavigationContainer>
 );

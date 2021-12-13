@@ -7,16 +7,28 @@ import {
 import streamThumbnail from '../../images/user.jpg';
 
 import colors from '../../styles/colors';
+import { useNavigation } from "@react-navigation/native"
+import {
+
+  TouchableOpacity,
+
+} from 'react-native'
 
 import { Container, Avatar, OnlineStatus, RightSide, Button } from './styles';
 
 const Header: React.FC = () => {
-  return (
-    <Container>
-      <Avatar source={streamThumbnail} >
-        {/* <OnlineStatus /> */}
+  const navigation = useNavigation();
 
-      </Avatar>
+  return (
+    <Container >
+      <TouchableOpacity onPress={() => navigation.navigate("Login")}>
+
+        <Avatar source={streamThumbnail}  >
+          {/* <OnlineStatus /> */}
+
+        </Avatar>
+      </TouchableOpacity>
+
 
       <RightSide>
         <Button>
