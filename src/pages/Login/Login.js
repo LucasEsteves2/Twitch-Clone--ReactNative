@@ -8,15 +8,17 @@ import {
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { api } from "../../service/api";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logozita from "../../images/logotwt.png";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export function Login() {
   const [login, setLogin] = useState();
   const [senha, setSenha] = useState();
-
+  const [btn, setBtn] = useState("");
   const navigation = useNavigation();
+
+
 
   //verificando se usuario existe na api
   async function entrar() {
@@ -27,13 +29,7 @@ export function Login() {
       });
       alert("Bem vindo " + login);
 
-      const storeData = async (value) => {
-        try {
-          await AsyncStorage.setItem("@login", login);
-        } catch (e) {
-          alert("erro ao salvar no storage");
-        }
-      };
+      await AsyncStorage.setItem("@login", login);
 
       navigation.navigate("Following");
     } catch {
