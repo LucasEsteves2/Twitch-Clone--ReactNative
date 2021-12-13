@@ -6,7 +6,7 @@ import colors from './styles/colors';
 
 import Following from './pages/Following';
 import ComingSoon from './pages/ComingSoon';
-import { Login } from './pages/Login';
+import  Login  from './pages/Login';
 const { Navigator, Screen } = createBottomTabNavigator();
 
 import { NavigationContainer } from '@react-navigation/native';

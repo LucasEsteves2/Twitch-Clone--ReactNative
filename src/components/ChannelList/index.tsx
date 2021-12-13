@@ -19,6 +19,7 @@ interface ItemProps {
 }
 
 const ChannelList: React.FC = () => {
+ 
   const ChannelItem: React.FC<ItemProps> = ({ item }) => (
     <ChannelContainer>
       <LeftSide>

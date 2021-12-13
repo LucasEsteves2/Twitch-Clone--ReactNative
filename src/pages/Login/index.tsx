@@ -2,10 +2,10 @@ import React from 'react';
 import { useNavigation } from "@react-navigation/native"
 
 import { Wrapper, Heading } from './styles';
-import { Text, TouchableOpacity } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 
 
-const ComingSoon: React.FC = () => {
+const Login: React.FC = () => {
   const navigation = useNavigation();
   return (
     <Wrapper>
@@ -20,4 +20,4 @@ const ComingSoon: React.FC = () => {
   );
 };
 
-export default ComingSoon;
+export default Login;

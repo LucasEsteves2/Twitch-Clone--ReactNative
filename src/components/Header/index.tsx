@@ -4,7 +4,7 @@ import {
   MaterialCommunityIcons,
   Feather,
 } from '@expo/vector-icons';
-import streamThumbnail from '../../images/userx.jpg';
+import streamThumbnail from '../../images/user.jpg';
 
 import colors from '../../styles/colors';
 

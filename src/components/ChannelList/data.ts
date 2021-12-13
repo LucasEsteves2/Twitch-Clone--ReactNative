@@ -5,8 +5,8 @@ import dg from '../../images/canal/dg.jpg';
 import serratec from '../../images/canal/serratec.jpg';
 import ju from '../../images/canal/ju.jpg';
 
-
 //fazer uma consulta na api e trazer os dados ali 
+
 
 export default [
   { nome: 'Serratec', img: serratec, videos: '10 new videos' },
