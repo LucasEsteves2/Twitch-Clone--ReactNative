@@ -21,7 +21,7 @@
 
 </p>
 <p align="center" id="design">
-  <img width="300" src="https://github.com/LucasEsteves2/Twitch-Clone--ReactNative/blob/main/src/github/clone.gif" />
+  <img width="300" src="https://github.com/LucasEsteves2/Twitch-Clone--ReactNative/blob/main/src/github/clone2.gif" />
 </p>
   <br>
 
